@@ -1,3 +1,5 @@
+nnoremap <C-c> :!g++ -o  %:r.out % -std=c++11<Enter>
+nnoremap <C-x> :!./%:r.out
 :autocmd BufNewFile *.cpp 0r ~/.vim/templates/skeleton.cpp
 set nobackup
 set tabstop=8
