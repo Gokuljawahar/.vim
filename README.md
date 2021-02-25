@@ -10,5 +10,5 @@ vim is one of the most powerfull text editor , vim helps us to boost our product
 ### installing vim on debian based distros
 1. cui based : sudo apt install vim
 2. gui based : sudo apt install gvim
-3. neovim (new flavour of vim) : sudo apt install neovim
+
 
