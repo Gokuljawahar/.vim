@@ -12,5 +12,5 @@ set number
 set nowritebackup
 set noswapfile
 set nocompatible
-colorscheme darkblue
+colorscheme industry
 set guifont=Monospace\ Regular\ 12
