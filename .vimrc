@@ -1,8 +1,12 @@
-nnoremap <C-c> :!g++ -o  %:r.out % -std=c++11<Enter>
-nnoremap <C-x> :!./%:r.out
-:autocmd BufNewFile *.cpp 0r ~/.vim/templates/skeleton.cpp
+
+nnoremap <C-c> :!mcs % -out:%:r.exe<CR>
+nnoremap <C-x> :!mono %:r.exe<CR>
+
+:autocmd BufNewFile *.cs 0r ~/.vim/templates/skeleton.cs
+
+
 set nobackup
-set tabstop=8
+set tabstop=4
 set expandtab
 set shiftwidth=4
 set autoindent
